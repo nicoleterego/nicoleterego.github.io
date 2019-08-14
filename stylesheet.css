@@ -1,0 +1,96 @@
+
+/*Designed and Submitted by: Lae Nicole Evangelista (2015-03605)*/
+/*Exercise #1 EF-1L)*/
+body{
+	 text-align:center;
+	 width: 100%;
+	 margin: 0 auto;
+	 padding: 0px;
+	 font-family:"lucida grande",tahoma,verdana,arial,sans-serif;
+	 background: #fff8dc;
+}
+header{
+	 width:100%;
+	 min-width:980px;
+	 background-color:#76D7C4;
+	 position: fixed;
+	 float: top;
+}
+header#headerStyle{
+	 width:980px;
+	 margin:0px auto;
+	 padding:0px;
+	 height:30px;
+}
+#headerStyle li{
+	 list-style-type:none;
+	 float:center;
+	 text-align:center;
+	 color:white;
+}
+#headerStyle #sitename{
+	margin-top: 10px;
+	margin-left: 100px;
+	text-align: center;
+	font-size: 30px;
+	font-weight: 900;
+}
+section.left{
+	width: 275px;
+	margin-left: 5%;
+	float: left;
+}
+.profileSide {
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    width: 250px;
+    margin-top: 5%;
+    float: left;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    padding-right:10px;
+    text-align: center;
+    font-size: 12px;
+    border-radius: 5px;
+    border: #0E6251 2px solid;
+    background-color: rgba(255,255,255, 0.7);
+}
+.profileSide img {
+	width: 80%; 
+	height: 70%;
+	margin: auto;
+	padding-top: 20px;
+	border-radius: 5px;
+}
+.nickname {
+    color: grey;
+    font-weight: 600;  
+}
+.profileSide a {
+    font-size: 22px;
+    color: black;
+}
+
+article.randomThought{
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+	border: #0E6251 2px solid;
+	border-radius: 3px;
+    width: 1400px;
+    float: center;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    padding-right:10px;
+    text-align: left;
+    font-size: 15px;
+    overflow: hidden;
+    margin: auto;
+    background-color: rgba(255,255,255, 0.7);
+}
+.headThought{
+	font-weight: 600;	
+}
+.Content{
+	padding-right: 10px;
+	padding-left: 20px;
+}
+
+/*END OF CODE*/
